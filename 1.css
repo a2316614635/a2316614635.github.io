@@ -1,0 +1,295 @@
+
+#logo{
+    position:relative;
+    border-radius:10px;
+    top:0;
+    left:0;
+    opacity: 0.7;
+    width:200px;
+    height:50px;
+}
+.bg{
+    position:relative;
+    margin: 0;
+    padding: 0;
+    min-height:100vh;
+
+}
+.bg::before{
+    content: "";
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://vc.static.pil0txia.com/gallery/kimi_no_na_wa/S00125-14051694.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+input[type="text"]{
+    position:absolute;
+    top:25px;
+    left:220px;
+    width:150px;
+    height: 20px;
+
+}
+.sousuo{
+    position:absolute;
+    left:390px;
+    top:25px;
+}
+.sousuo button{
+    height:25px;
+    font-family: kaiti;
+    background-color: aqua;
+    border:0;
+    color: black;
+    cursor: pointer;
+}
+.Firstline{
+    position:absolute;
+    left:450px;
+    top:20px;
+}
+.Firstline button{
+    padding:0 5px;
+    border:0;
+    font-size: 32px;
+    font-family:Georgia;
+    background-color: rgb(224, 255, 175);
+    color: rgb(255, 0, 0);
+    outline:none;
+    border-radius:5px;
+    margin:0 10px;
+    cursor: pointer;
+}
+.information{
+    position:absolute;
+    left:1050px;
+    top:28px;
+}
+.information button{
+    cursor: pointer;
+    font-family:kaiti;
+    font-size: 15px;
+    margin:0 5px;
+}
+
+.Sfiction{
+    position:relative;
+    top:20px;
+    width:830px;
+    height:280px;
+    border: 4px double blue;
+
+}
+.S_topic{
+    position:absolute;
+    top:-10px;
+    left:20px;
+    font-family:kaiti;
+    font-size:20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.A1{
+    position: relative;
+    top:40px;
+    left:20px;
+}
+.A1 img{
+    width:150px;
+    height:210px;
+}
+.A1 div{
+    font-family: kaiti;
+    width:150px;
+    text-align: center;
+}
+.A2{
+    position: absolute;
+    top:40px;
+    left:180px;
+}
+.A2 img{
+    width:150px;
+    height:210px;
+}
+.A2 div{
+    font-family: kaiti;
+    width:150px;
+    text-align: center;
+}
+.A3{
+    position: absolute;
+    top:40px;
+    left:340px;
+}
+.A3 img{
+    width:150px;
+    height:210px;
+}
+.A3 div{
+    font-family: kaiti;
+    width:150px;
+    text-align: center;
+}
+.A4{
+    position: absolute;
+    top:40px;
+    left:500px;
+}
+.A4 img{
+    width:150px;
+    height:210px;
+}
+.A4 div{
+    font-family: kaiti;
+    width:150px;
+    text-align: center;
+}
+.A5{
+    position: absolute;
+    top:40px;
+    left:660px;
+}
+.A5 img{
+    width:150px;
+    height:210px;
+}
+.A5 div{
+    font-family: kaiti;
+    width:150px;
+    text-align: center;
+}
+.news{
+    position:absolute;
+    left:860px;
+    top:80px;
+    width:350px;
+    height: 900px;
+    border: 3px solid yellowgreen;
+}
+.n_topic{
+    position:absolute;
+    width: 350px;
+    text-align: center;
+    font-family:kaiti;
+    font-size:20px;
+    background-color: aliceblue;
+    background-color: yellowgreen;
+}
+
+.Anima{
+    position:absolute;
+    top:390px;
+    width:830px;
+    height:290px;
+    border: 4px double orange;
+}
+.A_topic{
+    position:absolute;
+    top:-10px;
+    left:20px;
+    font-family:kaiti;
+    font-size:20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+
+
+.S1{
+    position: relative;
+    top:40px;
+    left:20px;
+}
+.S1 img{
+    width:150px;
+    height:210px;
+}
+.S1 div{
+    font-family: kaiti;
+    width:150px;
+    text-align: center;
+}
+
+
+.S2{
+    position: absolute;
+    top:40px;
+    left:180px;
+}
+.S2 img{
+    width:150px;
+    height:210px;
+}
+.S2 div{
+    font-family: kaiti;
+    width:150px;
+    text-align: center;
+}
+.S3{
+    position: absolute;
+    top:40px;
+    left:340px;
+}
+.S3 img{
+    width:150px;
+    height:210px;
+}
+.S3 div{
+    font-family: kaiti;
+    width:150px;
+    text-align: center;
+}
+.S4{
+    position: absolute;
+    top:40px;
+    left:500px;
+}
+.S4 img{
+    width:150px;
+    height:210px;
+}
+.S4 div{
+    font-family: kaiti;
+    width:150px;
+    text-align: center;
+}
+.S5{
+    position: absolute;
+    top:40px;
+    left:660px;
+}
+.S5 img{
+    width:150px;
+    height:210px;
+}
+.S5 div{
+    font-family: kaiti;
+    width:150px;
+    text-align: center;
+}
+
+.music{
+    position:absolute;
+    top:700px;
+    width:830px;
+    height:280px;
+    border: 4px double gold;
+}
+.m_topic{
+    position:absolute;
+    top:-10px;
+    left:20px;
+    font-family:kaiti;
+    font-size:20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
